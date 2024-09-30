@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    
+    <style>
+      .formulario1, #meuFormulario{
+       border-radius: 10px;
+       box-shadow: rgb(255, 0, 0) 10 0 10px;
+       margin: 0 auto;
+       padding: 10px; 
+       width: 300px;
+         
+      }
+     .teste{
+        border-radius: 100px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      label {
+        color: rgb(0, 0, 0);
+       
+        margin-bottom: 8px; 
+      }
+
+      input {
+        
+        width: 100% ;
+        padding: 10px; 
+        margin-bottom: 10px; 
+        background-color: #798a9c;
+      }
+
+      button {
+        padding: 10px 20px; 
+        background-color: #35536d; 
+        color: #fff; 
+        border: 10em; 
+        border-radius: 55px; 
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3; 
+      }
+      .style-box{
+        background-color: #35536d;
+      }*/
+    </style>   
+</head>    
+<body>
+
+    <h1>Formulario</h1>
+    <div class="style-box">
+    <div class="formulario1">
+        <form id="meuFormulario">    
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"required><br>
+
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade" name="idade" required>
+
+        <button type="button" onclick="verificar()">Enviar</button>
+      </div>
+      </form>
+
+    </div>
+    <script>
+      function verificar(){
+
+        var nome = document.getElementById("nome").value
+        var idade = document.getElementById("idade").value
+
+        if(nome === ""|| idade === ""){
+          alert("errado")
+        }else{
+          alert("Nome: "+ nome + "\nIdade: " + idade )
+        }
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex09</title>
+
+  <style>
+.forms1{
+  margin: auto;
+  box-shadow: 2px 2px 10px rgba(247, 4, 4, 0.5);
+  border: 10px solid #b95252;
+  padding: 10px;
+  width: 300px;
+}
+button{
+  padding: 10px 20px; 
+  background-color: #35536d; 
+  color: #fff; 
+  border: 10em; 
+  border-radius: 55px; 
+  cursor: pointer;
+}
+button:hover {
+        background-color: #0056b3; 
+      }
+      .style-box{
+        background-color: #35536d;
+      }
+
+  </style>
+</head>
+<body>
+  <h1>Formulario</h1>
+    <div class="forms1">
+      <form id="nome-idade">
+        <label for="nome ">Nome:</label>
+        <input type="text" id="nome"
+        required><br>
+
+        <label for="idade">Idade:</label>
+        <input type="text" id="idade"
+        required><br>
+
+        <button onclick="verifica()">Envia</button>
+
+      </form>
+    </div>
+    <script>
+      function verifica(){
+        var nome = document.getElementById("nome").value
+        var idade = document.getElementById("idade").value
+
+        if(nome === "" || idade === "")
+          alert("Coloque as informacoes")
+        else{
+          alert("Nome: "+ nome + "\nIdade: " + idade)
+        }
+      }
+    </script>
+</body>
+</html>

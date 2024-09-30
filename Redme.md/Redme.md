@@ -1,0 +1,1 @@
+Esta é a minha pasta de estudos sobre JavaScript. Sinta-se à vontade para dar uma olhada!
