@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EX04</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fatorar.js"></script>
 </head>
 <body>
-    <script>
-        var numeroFatorar = parseFloat(prompt("Qual o nuemro que deve ser fatorado:")); 
-  
-        var resultado = 1
-        for(var nRepeticoes = 1; nRepeticoes <= numeroFatorar; nRepeticoes++){
-            resultado = resultado * nRepeticoes
-        }
-        alert("O fatorial de " + numeroFatorar + " e " + resultado)
-    </script>
+    <button onclick="fatorar()">Fatorar um numero</button>
 </body>
 </html>

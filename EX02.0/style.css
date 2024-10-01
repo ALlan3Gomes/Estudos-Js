@@ -1,0 +1,22 @@
+/* Estilo geral para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #28a745; 
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #218838;  
+}
