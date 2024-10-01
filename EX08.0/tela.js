@@ -1,4 +1,4 @@
-function tela(){
+function tela() {
 
     var largura = window.innerWidth;
     var altura = window.innerHeight;

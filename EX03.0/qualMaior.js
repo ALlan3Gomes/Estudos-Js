@@ -1,4 +1,4 @@
-function qualMaior(){
+function qualMaior() {
     var num1 = prompt("Digite o primeiro número:");
     var num2 = prompt("Digite o segundo número:");
 
@@ -9,4 +9,4 @@ function qualMaior(){
     } else {
         alert("Os números são iguais.");
     }
-  }
+}

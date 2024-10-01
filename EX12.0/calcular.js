@@ -24,4 +24,3 @@ function calcular() {
     document.getElementById("resultado").innerHTML = "Resultado: " + resultado;
     alert(resultado)
 }
- 
